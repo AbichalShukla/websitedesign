@@ -1,0 +1,486 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: 	#b6e8f3;
+  
+}
+.header1 {
+  cursor: pointer;
+}
+.header1 .icon i{
+  margin-left: 10px;
+  color: black;
+ 
+}
+
+.header2{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 18vh;
+}
+.header2 p{
+  margin-right: 5%;
+  margin-top: 2%;
+  font-size: 25px;
+}
+.header2 i{
+  margin-right: 15px;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+}
+.header-list .navbar{
+  background-color: #b6e8f3;
+}
+.container-fluid .navbar-nav{
+  margin-left: 28%;
+}
+.container-fluid .nav-item{
+  padding-left: 20px;
+}
+.nav-item .list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.nav-item a:hover{
+ color: grey;
+}
+
+.nav-item .list li a:hover{
+  color: gray;
+}
+
+/* HEROSECTION */
+.carousel-inner img{
+  width: 100%;
+  height: 100vh;
+}
+
+/* OUR COLLECTION */
+
+.collectionList .AllImage .img {  
+  transition: opacity 0.5s ease-in-out;
+}
+.collectionList .AllImage .img:hover {
+ 
+  transform: scale(1.1);
+}
+
+
+.collectionList{
+  position: relative;
+  width: 100%;
+  height: 50vh;
+}
+.collectionList h1{
+  margin-top: 5%;
+  padding: 2%;
+  text-align: center;
+}
+.collectionList .AllImage{
+  display: flex;
+  padding-left: 20px;
+  position: absolute;
+}
+.collectionList .AllImage .img{
+  margin-left: 2%;
+  width: 20%;
+  border-radius: 50%;
+  
+}
+.collectionList .AllImage .img img{
+  display: flex;
+  height: 70%;
+  width: 75%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.collectionList p{
+  margin-right: 20%;
+  padding: 20px;
+}
+
+
+
+/* -----------------------PLANTERS----------------------- */
+
+
+.palnters{
+  margin-top: 5%;
+  position: relative;
+  width: auto;
+  height: 90vh;
+  background-color: #ECFFDC;
+}
+
+
+
+
+.palnters h2{
+  text-align: center;
+  
+}
+.palnters .box{
+  margin-top: 3%;
+  margin-left: 5%;
+  width: auto;
+  height: 50vh;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+.palnters .box .sub-box img{
+  width: 80%;
+}
+
+.palnters .sub-box p{
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+ 
+
+
+/* -----------------------Birds----------------------- */
+.birds{
+  margin-top: 2%;
+  position: relative;
+  width: auto;
+  height: 85vh; 
+}
+.birds h2{
+  text-align: center;
+}
+.birds .box{
+  margin-top: 3%;
+  margin-left: 5%;
+  width: auto;
+  height: 50vh;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+.birds .box .sub-box img{
+  width: 80%;
+}
+
+/* -----------------------Wall Art----------------------- */
+.wallArt{
+  background-color: #ECFFDC;
+  margin-top: 5%;
+  position: relative;
+  width: auto;
+  height: 90vh; 
+}
+.wallArt h2{
+  text-align: center;
+}
+.wallArt .box{
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 5%;
+  width: auto;
+  height: 50vh;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+.wallArt .box .sub-box img{
+  width: 80%;
+}
+
+/* -----------------------LAMP----------------------- */
+.lamp{  
+  background-color: #ECFFDC;
+  margin-top: 5%;
+  position: relative;
+  width: auto;
+  height: 90vh; 
+}
+.lamp h2{
+  text-align: center;
+}
+.lamp .box{
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 5%;
+  width: auto;
+  height: 50vh;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+.lamp .box .sub-box img{
+  width: 80%;
+}
+
+
+/* GOD IDOLS */
+.godIdols{
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+.godIdols h2, p {
+  margin-top: 1%;
+  text-align: center;
+}
+.godIdols .box{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4%;
+}
+
+.box .sub-box img{
+  display: flex;
+  width: 75%;
+  height: 100%;
+  border-radius: 5%;
+  cursor: pointer;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+
+.sub-box p{
+  padding-top: 5%;
+  margin-right: 20%;
+}
+
+
+/*----------------------------------- INFORMATION ----------------------- */
+.word{
+  width: auto;
+  height: 30vh;
+  position: relative;
+  margin: 3%;
+}
+.word h2{
+  text-align: center;
+  font-style: italic;
+}
+.word p{
+  line-height: 30px;
+  margin-top: 2%;
+  text-align: left;
+  font-style: italic;
+  font-size: 18px;
+}
+
+/* ---------------------------APPLY CSS STYLE FOR ALL-------------------- */
+ .sub-box {
+  position: relative;
+  width: 300px;
+  height: 300px;  
+}
+ .sub-box img {  
+  transition: opacity 0.5s ease-in-out;
+}
+ .sub-box img:hover {
+ 
+  transform: scale(1.1);
+}
+
+
+
+/* ---------- */
+.box .sub-box .price{
+  margin-top: -10px;
+  margin-left: 18%;
+  font-size: 10px;
+  
+}
+ .sub-box .rating-wrapper{
+  margin-top: 8px;
+  margin-left: 20%;
+}
+ .sub-box  .rating-text{
+  font-size: 12px;
+  margin-left: 25%;
+  margin-top: -16%;
+}
+
+
+
+/* ----------------------------------- FOOTER -------------------------------- */
+
+.footer{
+  position: relative;
+  padding: 20px;
+  height: 60vh;
+  background-color: #b6e8f3;
+  color: black;
+  bottom: 0;
+}
+.footer .part{
+  color: black;
+  float: left;
+  padding: 20px;
+  margin-left: 50px;
+}
+.footer .part i{
+  color: black;
+}
+.footer .p{
+  margin-right: 82%;
+}
+.footer .p1{ 
+   
+  margin-right: 75%;
+}
+
+
+.footer p{
+  margin-right: 20px;
+}
+.footer .part ul li{
+  list-style: none ;
+  padding: 2px;
+  font-size: 14px;
+}
+.footer .part ul li a{
+  color: black;
+  text-decoration: none;
+  padding: 2px;
+  font-size: 14px;
+}
+.footer .part textarea{
+  width: 110%;    
+}
+.footer .part button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: #b9f36c;
+  background-color: #d4fba1;
+  border-radius: 10px;
+  padding: 8px;
+  width: 30%;
+  color: black;
+  border-radius: none;
+}
+.footer .part i{
+  margin-top: -15px;
+  padding: 10px;
+}
+
+
+/* -------------------------PARTICULAR ORDER--------------------------------- */
+
+.main{
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  display: flex;
+}
+.main .sub-main1{ 
+  width: auto;
+  height: 100vh;
+}
+.sub-main1 .img-box{
+  margin-top: 20%;
+  margin-left: 20%;  
+  width: 100%;
+  height: 100vh;
+}
+.sub-main1 .img-box img{ 
+  margin-left: 10%; 
+  margin-top: 10%;
+  padding: 10px;
+  width: 80%;
+  height: 60vh;
+  
+}
+.main .sub-main2 {
+  width: 50%;
+  height: auto;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.sub-main2 .box h4{
+  padding: 10px;
+}
+.sub-main2 .box button{
+  border-radius: 10px ;
+  cursor: pointer;
+  margin: 10px;
+  width: 80%;
+  height: 8vh;
+}
+.sub-main2 .box button:hover{  
+  background-color: #b6e8f3;
+  border-radius: 10px;
+}
+.img-box .icon1 i{
+  
+  padding: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.login{
+  background-image: url('./photo/login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loginBg{
+  opacity: 0.8;  
+  background-color: #b6e8f3;
+  
+}
+
+
+/* --------------------------ADD TO CART---------------------- */
+
+.addToCart{
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  background-color:#E0FFFF;
+  
+}
+.addToCart h1{  
+  padding: 8%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.addToCart h2{  
+  text-align: center;
+}
+.addToCart .input{
+  margin-top: -5%;
+  text-align: center;
+}
+
+/* ------------------------------BUY NOW PAGE----------------------------- */
+.buyNow{
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  background-color:#E0FFFF;
+  
+}
+.buyNow h1{  
+  padding: 10%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: -10%;
+}
+.buyNow p{  
+  margin-top: 2%;
+  text-align: center;
+}
+.buyNow .input{ 
+  text-align: center;
+}
+
+
